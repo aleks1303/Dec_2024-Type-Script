@@ -51,7 +51,7 @@ console.log(dog)
 // щоб не було повторення коду з отримання даних з localStorage
 // робимо функцію з generic
 
-function withGeneric<T>(key: string) {
+function withGeneric<T>(key: string): T {
     let objJSON = localStorage.getItem(key)
     if (objJSON) {
        return JSON.parse(objJSON) as T;
