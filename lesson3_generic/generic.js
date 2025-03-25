@@ -33,7 +33,7 @@ function withGeneric(key) {
         return JSON.parse(objJSON);
     }
     else {
-        return 'нічого немає';
+        return {};
     }
 }
 let iUserLS = withGeneric('user');
