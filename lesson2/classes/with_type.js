@@ -1,2 +1,10 @@
 "use strict";
-console.log('hello s');
+// все те ж саме, що і з interface
+class AnimalWithType {
+    constructor(isAlive, name) {
+        this.isAlive = isAlive;
+        this.name = name;
+    }
+    sound() {
+    }
+}
